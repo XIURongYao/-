@@ -1,0 +1,26 @@
+<html>
+<body>
+<div id="divD" style="width:100px;height:100px;border:1px solid red;margin-left:100px;margin-top:100px"></div>
+<script>
+document.onkeydown=function(e){
+	var dt = document.getElementById("divD");
+	switch(e.keyCode){
+		case 37:
+		  dt.style.marginLeft=parseInt(dt.style.marginLeft.replace("px",""))-100+"px";
+		  break;
+		case 38:
+		  dt.style.marginTop=parseInt(dt.style.marginTop.replace("px",""))-100+"px";
+		  break;
+		case 39:
+		  dt.style.marginLeft=parseInt(dt.style.marginLeft.replace("px",""))+100+"px";
+		  break;
+		case 40:
+		  dt.style.marginTop=parseInt(dt.style.marginTop.replace("px",""))+100+"px";
+		  break;
+		default:
+		  break;
+	}
+}
+</script>
+</body>
+</html>
