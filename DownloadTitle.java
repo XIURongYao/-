@@ -8,7 +8,7 @@ import us.codecraft.webmagic.processor.PageProcessor;
 /** 
  *
  * <p>Copyright (c) 2017  OSFF	</p>  
- * <p>类描述:		[这个类是webmagic的入门示例]	</p>
+ * <p>类描述:		[这个类是webmagic的入门示例程序]	</p>
  * <p>创建人:		[xry]   </p>
  * <p>创建时间:	[2017-8-1 上午11:07:23]   </p>
  * <p>修改人:		[xry]   </p> 
